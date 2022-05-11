@@ -1,2 +1,1 @@
-# html-css-javascript-my-changes
-Repository for a training from Pluralsight course: 
+# Building Websites With HTML, CSS, and JavaScript: Getting Started
