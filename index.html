@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
-<style>
+<!-- style section overrides style from separate file -->
+<style> 
     h1 {
-        background-color: #39f;
+        color: #fcc;
     }
 </style>
 <body>
-    <h1 style="color: #39f;">Title</h1>  <!-- it works the same as the h1 selector in <style>... -->
+    <h1 style="color: #b30000">Title</h1> <!-- style attribute wins because it's more specific in scope than the rest of the rule -->
     <h1>HTML elements</h1>
     <p>Each element has a purpose.</p>
     <a href="https://pluralsight.com">Learn more at Pluralsight</a>
