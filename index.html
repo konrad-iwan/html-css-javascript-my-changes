@@ -9,30 +9,22 @@
 </head>
 <!-- style section overrides style from separate file -->
 <style> 
-    h1 {
-        color: #fcc;
+    img {
+        border: solid 1px #777;
     }
 </style>
 <body>
-    <h1 style="color: #b30000">Title</h1> <!-- style attribute wins because it's more specific in scope than the rest of the rule -->
-    <h1>HTML elements</h1>
-    <p>Each element has a purpose.</p>
-    <a href="https://pluralsight.com">Learn more at Pluralsight</a>
-    <table>
-        <thead>
-            <tr>Author</tr>
-            <tr>Title</tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Craig Shoemaker</td>
-                <td>Building Websites with HTML, CSS, and JavaScript: Getting Started</td>
-            </tr>
-            <tr>
-                <td>John Papa</td>
-                <td>Vue: Getting Started</td>
-            </tr>            
-        </tbody>
-    </table>
+    <h1>Introduction to CSS</h1>
+    <p>These tutorials teach you CSS.</p>
+    <div class="tutorial" id="tutorial-1">
+        <h1>Tutorial 1</h1>
+        <img src="https://via.placeholder.com/150" />
+        <p>To begin with tutorial 1...</p>
+    </div>
+    <div class="tutorial" id="tutorial-2">
+        <h1>Tutorial 2</h1>
+        <img src="https://via.placeholder.com/100" />
+        <p>To begin with tutorial 2...</p>
+    </div>
 </body>
 </html>
