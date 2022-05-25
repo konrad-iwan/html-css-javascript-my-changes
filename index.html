@@ -7,23 +7,30 @@
     <title>Document</title>
 </head>
 <style>
-    .columns {
-        border: solid 1px #39f;
-        display: flex;
+    .desktop,
+    .print { 
+        display: none
     }
-    .columns > div {
-        border: solid 1px #ccc;
-        flex: 1;
+
+    @media print {
+        .mobile, .desktop { 
+            display: none;
+        }
+
+        .print { 
+            display: block; 
+        }
     }
-    .columns > div:nth-of-type(2) {
-        flex: 2;
+
+    @media screen and (min-width: 768px) {
+        .mobile {
+            display: block;
+        }
     }
 </style>
 <body>
-    <div class="columns">
-        <div>Column 1</div>
-        <div>Column 2</div>
-        <div>Column 3</div>
-    </div>
+    <div class="desktop">Desktop</div>
+    <div class="mobile">Mobile</div>
+    <div class="print">Print</div>
 </body>
 </html>
