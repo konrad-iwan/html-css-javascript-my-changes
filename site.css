@@ -50,3 +50,19 @@ main {
     padding-bottom: 3em;
     min-height:85%;
 }
+
+footer {
+    padding: 15px; 
+}
+
+aside, article { 
+    padding: 2em;
+}
+
+aside {
+    text-align: center;
+}
+
+article {
+    width: 75%;
+}
